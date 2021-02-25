@@ -7,9 +7,20 @@ To start your Phoenix server:
   * Start Phoenix endpoint with `mix phx.server`
 
 Rodar o shell interativo dentro do projeto:
+```
 iex -S mix
+```
 
-recompile, para recompilar o código
+Para recompilar o código:
+```
+recompile
+```
+
+
+Criar o BD:
+```
+mix ecto.create
+```
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
