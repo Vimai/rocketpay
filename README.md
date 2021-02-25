@@ -22,6 +22,16 @@ Criar o BD:
 mix ecto.create
 ```
 
+Criar migration:
+```
+mix ecto.gen.migration create_user_table
+```
+
+Rodar migration:
+```
+mix ecto.migrate
+```
+
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
